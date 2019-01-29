@@ -62,3 +62,19 @@ img:hover {
     cursor: pointer;
 	opacity: 0.8;
 }
+
+.beach1{
+	content:url("images/beach1.jpg");
+}
+
+.beach2{
+	content:url("images/beach2.jpg");
+}
+
+.beach3{
+	content:url("images/beach3.jpg");
+}
+
+.beach4{
+	content:url("images/beach4.jpg");
+}
