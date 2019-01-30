@@ -12,11 +12,19 @@ function removeClass(el){
 	el.classList.remove("pats-silver");
 }
 
-function beach(el){
-	document.getElementById("one").src = ("images/beach1.jpg");
-	document.getElementById("two").src = ("images/beach2.jpg");
-	document.getElementById("three").src = ("images/beach3.jpg");
-	document.getElementById("four").src = ("images/beach4.jpg");
-	document.getElementById("one").classList.toggle("flower3");
+function one(el){
+	document.getElementById("one").classList.toggle("beach1");
+	
+}	
+function two(el){
 	document.getElementById("two").classList.toggle("beach2");
+	
+}	
+	
+function three(el){
+	document.getElementById("three").classList.toggle("beach3");		
+}
+
+function four(el){
+	document.getElementById("four").classList.toggle("beach4");		
 }
