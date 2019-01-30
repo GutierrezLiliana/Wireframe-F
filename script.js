@@ -8,8 +8,8 @@ function addClass(el){
 }
 
 // "el" stands for the "element" that was just clicked
-function removeClass(el){
-	el.classList.remove("pats-silver");
+function normal(el){
+	document.getElementById("two").classList.toggle("normal");
 }
 
 function one(el){
