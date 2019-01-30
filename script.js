@@ -14,11 +14,10 @@ function removeClass(el){
 
 function one(el){
 	document.getElementById("one").classList.toggle("beach1");
-	
 }	
+
 function two(el){
 	document.getElementById("two").classList.toggle("beach2");
-	
 }	
 	
 function three(el){
